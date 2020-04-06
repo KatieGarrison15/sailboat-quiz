@@ -1,0 +1,20 @@
+.nofill {
+  fill: #D5D4D4;
+}
+
+.fill {
+  fill:#00BFFF
+}
+
+.word-choice {
+  outline: 2px solid black;
+  margin-top: 5px;
+}
+
+.boat-image {
+  margin-top: 5px;
+}
+
+.btn {
+  margin: 10px 10px 10px 10px;
+}
