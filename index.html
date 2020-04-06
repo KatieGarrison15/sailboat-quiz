@@ -3,143 +3,77 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <title>Sailboat Quiz</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Sailboat</h1><br>
-      <div class="boat-image">
-        <svg xmlns="http://www.w3.org/2000/svg"
-             width="176.367mm" height="209.524mm"
-             viewBox="0 0 500 594">
-          <path id="A-mainsheet" class="nofill"
-                stroke="black" stroke-width="2"
-                d="M 328.00,28.00
-                   C 328.00,28.00 323.85,55.00 323.85,55.00
-                     323.85,55.00 320.34,78.17 320.34,78.17
-                     320.34,78.17 317.57,100.00 317.57,100.00
-                     317.57,100.00 302.72,204.00 302.72,204.00
-                     302.72,204.00 298.28,233.00 298.28,233.00
-                     298.28,233.00 292.64,273.00 292.64,273.00
-                     292.64,273.00 290.19,293.00 290.19,293.00
-                     290.19,293.00 285.72,323.00 285.72,323.00
-                     285.72,323.00 280.42,359.00 280.42,359.00
-                     280.42,359.00 278.43,373.00 278.43,373.00
-                     278.43,373.00 276.40,378.98 276.40,378.98
-                     276.40,378.98 269.00,379.96 269.00,379.96
-                     269.00,379.96 256.00,379.96 256.00,379.96
-                     256.00,379.96 244.00,379.00 244.00,379.00
-                     244.00,379.00 224.00,379.00 224.00,379.00
-                     224.00,379.00 209.00,380.00 209.00,380.00
-                     209.00,380.00 112.00,380.00 112.00,380.00
-                     112.00,380.00 97.00,381.00 97.00,381.00
-                     97.00,381.00 24.00,381.00 24.00,381.00
-                     24.00,381.00 48.73,351.00 48.73,351.00
-                     48.73,351.00 97.72,294.00 97.72,294.00
-                     97.72,294.00 141.28,243.00 141.28,243.00
-                     141.28,243.00 168.85,211.58 168.85,211.58
-                     168.85,211.58 244.26,123.42 244.26,123.42
-                     244.26,123.42 277.13,85.00 277.13,85.00
-                     277.13,85.00 298.15,60.83 298.15,60.83
-                     298.15,60.83 316.73,39.00 316.73,39.00
-                     316.73,39.00 328.00,28.00 328.00,28.00 Z" />
-          <path id="B-mast" class="nofill"
-                fill="none" stroke="black" stroke-width="2"
-                d="M 340.00,6.00
-                   C 340.00,6.00 340.00,434.00 340.00,434.00
-                     340.00,434.00 332.00,434.00 332.00,434.00
-                     332.00,434.00 332.00,6.00 332.00,6.00
-                     332.00,6.00 340.00,6.00 340.00,6.00 Z" />
-          <path id="C-jibsheet" class="nofill"
-                stroke="black" stroke-width="2"
-                d="M 379.00,148.00
-                   C 379.00,148.00 397.59,195.28 397.59,195.28
-                     400.24,201.60 406.10,212.52 406.00,219.00
-                     409.32,221.54 410.25,226.24 411.85,230.00
-                     414.60,236.48 423.08,255.07 423.00,261.00
-                     426.41,263.61 428.60,270.90 430.19,275.00
-                     430.19,275.00 442.32,305.00 442.32,305.00
-                     442.32,305.00 452.55,330.00 452.55,330.00
-                     452.55,330.00 471.86,378.00 471.86,378.00
-                     471.86,378.00 487.00,417.00 487.00,417.00
-                     487.00,417.00 450.00,406.29 450.00,406.29
-                     450.00,406.29 397.00,391.00 397.00,391.00
-                     397.00,391.00 374.00,384.37 374.00,384.37
-                     371.44,383.70 366.59,382.73 364.80,380.49
-                     363.22,377.93 364.18,371.04 364.80,368.00
-                     364.80,368.00 366.00,346.00 366.00,346.00
-                     366.00,346.00 368.00,308.00 368.00,308.00
-                     368.00,308.00 369.77,295.00 369.77,295.00
-                     369.77,295.00 369.77,277.00 369.77,277.00
-                     369.77,277.00 372.00,246.00 372.00,246.00
-                     372.00,246.00 373.93,220.96 373.93,220.96
-                     373.93,220.96 373.93,209.00 373.93,209.00
-                     373.93,209.00 374.91,199.00 374.91,199.00
-                     374.91,199.00 376.86,168.96 376.86,168.96
-                     377.27,163.74 377.18,152.59 379.00,148.00 Z" />
-          <path id="D-rudder" class="nofill"
-                stroke="black" stroke-width="2"
-                d="M 28.00,439.00
-                   C 28.00,439.00 48.46,472.00 48.46,472.00
-                     48.46,472.00 62.81,495.00 62.81,495.00
-                     66.63,501.15 74.40,511.45 76.00,518.00
-                     66.88,522.39 53.63,532.84 44.00,533.00
-                     36.18,533.12 25.33,531.68 18.00,529.00
-                     26.60,522.17 49.23,519.59 47.82,504.00
-                     47.19,496.97 42.61,490.02 39.15,484.00
-                     39.15,484.00 13.00,444.00 13.00,444.00
-                     13.00,444.00 28.00,439.00 28.00,439.00 Z" />
-          <path id="E-body" class="nofill"
-                stroke="black" stroke-width="2"
-                d="M 493.00,437.00
-                   C 484.06,452.56 466.61,476.12 452.00,486.23
-                     441.11,493.76 420.99,499.65 408.00,503.15
-                     396.61,506.22 367.47,513.98 357.00,514.00
-                     357.00,514.00 295.00,514.00 295.00,514.00
-                     295.00,514.00 87.00,514.00 87.00,514.00
-                     85.07,514.00 81.92,514.12 80.17,513.40
-                     76.51,511.89 69.66,499.87 67.23,496.00
-                     67.23,496.00 31.00,438.00 31.00,438.00
-                     31.00,438.00 423.00,438.00 423.00,438.00
-                     423.00,438.00 440.00,437.00 440.00,437.00
-                     440.00,437.00 493.00,437.00 493.00,437.00 Z" />
-          <path id="F-keel" class="nofill"
-                stroke="black" stroke-width="2"
-                d="M 280.00,518.00
-                   C 280.00,518.00 232.00,566.00 232.00,566.00
-                     226.14,563.71 219.97,557.49 215.00,553.25
-                     213.27,551.76 210.20,549.50 210.20,546.99
-                     210.20,544.04 215.93,539.08 218.00,537.00
-                     221.84,533.16 233.89,520.11 238.00,518.60
-                     239.94,517.88 242.91,518.00 245.00,518.00
-                     245.00,518.00 280.00,518.00 280.00,518.00 Z" />
-          <path id="G-boom" class="nofill"
-                stroke="black" stroke-width="2"
-                d="M 328.00,383.00
-                   C 328.00,383.00 328.00,391.00 328.00,391.00
-                     328.00,391.00 5.00,391.00 5.00,391.00
-                     5.00,391.00 5.00,383.00 5.00,383.00
-                     5.00,383.00 328.00,383.00 328.00,383.00 Z" />
-          <path id="H-tiller" class="nofill"
-                stroke="black" stroke-width="1"
-                d="M 110.00,402.00
-                   C 110.00,402.00 112.00,407.00 112.00,407.00
-                     112.00,407.00 57.00,427.09 57.00,427.09
-                     49.11,430.08 36.47,433.73 30.00,439.00
-                     18.55,438.72 11.98,447.50 9.00,439.00
-                     9.00,439.00 47.00,425.06 47.00,425.06
-                     47.00,425.06 85.00,410.95 85.00,410.95
-                     85.00,410.95 110.00,402.00 110.00,402.00 Z" />
-        </svg>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="/">Sailboat Quiz</a>
       </div>
-    </div>
+    </nav>
+
+    <!--Left Navigation -->
+      <div class="container" id="left-navigator">
+          <div class="row">
+              <!-- <div class="span2">
+                  <ul class="nav nav-list">
+                      <li class="nav-header">Menu</li>
+                      <li class="active"><a href="#">Interactive Models</a></li>
+                      <li><a href="#">Quiz</a></li>
+                      <li><a href="#">Maps</a></li>
+                  </ul>
+              </div> -- >
+
+              <!-- Sub-tab selection -->
+              <div class="span12">
+                  <h3>Boat Types</h3>
+                  <div class="tabbable tabs-below">
+                      <ul class="nav nav-tabs">
+                          <li class="active">
+                              <a href="#tab1" data-toggle="tab">Basic Sailboat</a></li>
+                          <li>
+                              <a href="#tab2" data-toggle="tab">Parts of a Sail</a></li>
+                          <li>
+                              <a href="#tab3" data-toggle="tab">Directionals</a></li>
+                      </ul>
+                      <div class="tab-content">
+                          <div class="tab-pane active" id="tab1">
+                            <div class="span3">
+                              <div class="span2 word-choice">
+                                <h4 id="terms-header">Terms</h4>
+                                <button type="button" class="btn btn-primary">Mainsheet</button>
+                                <button type="button" class="btn btn-primary">Mast</button>
+                                <button type="button" class="btn btn-primary">Jibsheet</button>
+                                <button type="button" class="btn btn-primary">Rudder</button>
+                                <button type="button" class="btn btn-primary">Hull</button>
+                                <button type="button" class="btn btn-primary">Keel</button>
+                                <button type="button" class="btn btn-primary">Boom</button>
+                                <button type="button" class="btn btn-primary">Tiller</button>
+                              </div>
+                            </div>
+                            <div class="span8 boat-image">
+                              <img src="img/boaty-boat.png" alt="Boat image"/>
+                            </div>
+                          </div>
+                          <div class="tab-pane" id="tab2">
+                            <div class="span3"></div>
+                            <div class="span7"</div>
+                          </div>
+                          <div class="tab-pane" id="tab3">
+                              <p>Tab 3!!</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
-  </html>
+</html>
